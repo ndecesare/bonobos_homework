@@ -20,7 +20,11 @@ def loadPage():
 
 	entries = cursor.fetchall()
 
-	return render_template('template.html', entries=entries)
+	try:
+		return render_template('template.html', entries=entries)
+	except Exception as e:
+		return (str(e))
+
 
 	mysql.connection.close()
 
