@@ -25,7 +25,7 @@ This will create and import the database, as well as set up the user for connect
 
 <h1>EXPLANATION OF APPROACH</h1>
 Goal #1
--For my database, I decided to use MySQL because 1. I am most comfortable with non-NetSuite Databases that are in a typical relational, SQL-database model.  For both .csv files, I loaded them in using the command line and the following query, creating one table for each file:<br>
+-For my database, I decided to use MySQL because I am most comfortable with non-NetSuite Databases that are in a typical relational, SQL-database model.  For both .csv files, I loaded them in using the command line and the following query, creating one table for each file:<br>
 <code>
 LOAD DATA INFILE (insert file path here)
 REPLACE INTO TABLE (table name) 
