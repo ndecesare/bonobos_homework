@@ -9,7 +9,11 @@ Prerequisites:
 
 1. After retrieving the application files from GitHub, create a new directory somewhere on your local machine.  After installing the Python Virtual Environment, set up a new environment in the directory you just created by typing "virtualenv my_project" in the command line.
 
-2. In the newly created my_project directory, create another new folder labeled "app".  In the app folder, place all the files retrieved from GitHub.  While still in the my_project directory, activate the Virtual Environment by typing the following: ". bin/activate"
+2. In the newly created my_project directory, create another new folder labeled "app".  In the app folder, place all the files retrieved from GitHub.  While still in the my_project directory, activate the Virtual Environment by typing the following: 
+
+<code>
+. bin/activate
+</code><br>
 
 3. Log on to your instance of MySQL as root, and run the following command:
 
@@ -20,7 +24,11 @@ This will create and import the database, as well as set up the user for connect
 
 4.  Navigate to the app folder via the command line. Run the following command: <code>export FLASK_APP=main.py</code><br>
 
-5.  While still in the app folder, run the following command: flask run.  This will activate the application.  To view the application, open a web browser and navigate to the following URL: http://127.0.0.1:5000
+5.  While still in the app folder, run the following command: 
+
+<code>flask run</code>
+
+This will activate the application.  To view the application, open a web browser and navigate to the following URL: http://127.0.0.1:5000
 
 
 <h1>EXPLANATION OF APPROACH</h1>
