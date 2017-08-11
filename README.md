@@ -61,5 +61,5 @@ Goal #3
 <br>
 -A CSS Reset could have been used in this application to clear out the default styles created by the browser's user agent.
 <br>
-
+<br>
 -The error handling could stand to be more robust.
